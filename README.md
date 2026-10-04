@@ -9,7 +9,7 @@ Jednorazový inštalátor 24 klientských modov pre našu zostavu Minecraft **1.
 3. Otvor PowerShell a spusti jediný príkaz:
 
 ```powershell
-npx.cmd --yes --package=github:Deniscoke/mods rpg-minecraft-setup --confirm
+npx.cmd --yes --package=github:Deniscoke/mods#main rpg-minecraft-setup --confirm
 ```
 
 4. Príkaz použije predvolenú cestu `%APPDATA%\.minecraft` a po kontrole okamžite spustí inštaláciu. Ak má TLauncher vlastný herný priečinok, doplň `--game-dir "D:\Hry\Minecraft"`.
@@ -40,7 +40,7 @@ npx.cmd --yes --package=./rpg-minecraft-setup-1.0.0.tgz rpg-minecraft-setup
 ## Kontrola bez zmien
 
 ```powershell
-npx.cmd --yes --package=github:Deniscoke/mods rpg-minecraft-setup --dry-run
+npx.cmd --yes --package=github:Deniscoke/mods#main rpg-minecraft-setup --dry-run
 ```
 
 Pri použití npx si npm môže uložiť samotný malý inštalátor do svojej cache. `--dry-run` nemení Minecraft ani nesťahuje mody.
@@ -48,7 +48,7 @@ Pri použití npx si npm môže uložiť samotný malý inštalátor do svojej c
 Iný priečinok:
 
 ```powershell
-npx.cmd --yes --package=github:Deniscoke/mods rpg-minecraft-setup --game-dir "D:\Hry\Minecraft"
+npx.cmd --yes --package=github:Deniscoke/mods#main rpg-minecraft-setup --game-dir "D:\Hry\Minecraft"
 ```
 
 ## Návrat k pôvodným modom
