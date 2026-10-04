@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "name": "RPG partia",
+  "minecraft": "1.20.1",
+  "forgeRecommended": "47.4.26",
+  "forgeMinimum": "47.4.0",
+  "mods": [
+    {
+      "name": "Alex's Mobs",
+      "version": "1.22.9",
+      "filename": "alexsmobs-1.22.9.jar",
+      "url": "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar",
+      "sha512": "b50280057926d750f9ffbf6a8df36deb37529356895f6bf59f25d272ecf69afccec65ec1a5c3a8bfad24f9475c15b93c5ec4666447b1fce26a90c41445bbfb04",
+      "size": 26350793,
+      "source": "https://modrinth.com/mod/alexs-mobs/version/XoIASRVU"
+    },
+    {
+      "name": "Apotheosis",
+      "version": "7.4.8",
+      "filename": "Apotheosis-1.20.1-7.4.8.jar",
+      "url": "https://cdn.modrinth.com/data/rqFWfVlz/versions/tT3CLYvK/Apotheosis-1.20.1-7.4.8.jar",
+      "sha512": "40709a506f96e407d0d34f07e38916bd7238b2b56d54e806063fcc99ccc9fd97d8913afa57c5edfe58f71e2ea5f67c07510a8b5130cb8d9e16e7142b18e4a96c",
+      "size": 2803994,
+      "source": "https://modrinth.com/mod/apotheosis/version/tT3CLYvK"
+    },
+    {
+      "name": "Apothic Attributes",
+      "version": "1.3.7",
+      "filename": "ApothicAttributes-1.20.1-1.3.7.jar",
+      "url": "https://cdn.modrinth.com/data/DGaH8Rh0/versions/fwL9CWGd/ApothicAttributes-1.20.1-1.3.7.jar",
+      "sha512": "d0b7a9dac9e0d34cdec49afd9a3c9f5382dcfac69b18a7c7a600d4537cf2653368a00333389c8e7c9fdacf952e0e4f921464309e257a3dd992f1ba26f4ce6836",
+      "size": 227511,
+      "source": "https://modrinth.com/mod/apothic-attributes/version/fwL9CWGd"
+    },
+    {
+      "name": "Architectury API",
+      "version": "9.2.14+forge",
+      "filename": "architectury-9.2.14-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
+      "size": 580602,
+      "source": "https://modrinth.com/mod/architectury-api/version/1MKTLiiG"
+    },
+    {
+      "name": "Caelus API",
+      "version": "3.2.0+1.20.1",
+      "filename": "caelus-forge-3.2.0+1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5281/700/caelus-forge-3.2.0%2B1.20.1.jar",
+      "sha512": "c2cd101a569fc124a3c25b692cce5825ebfce908985532dba6cb694407da09404654c7c9877ac0295327eb3351fca1d3a6088ca23ef98f76d3eabf7ad4d7d5ff",
+      "size": 40125,
+      "source": "https://www.curseforge.com/minecraft/mc-mods/caelus/files/5281700"
+    },
+    {
+      "name": "Citadel",
+      "version": "2.6.3",
+      "filename": "citadel-2.6.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar",
+      "sha512": "42e3fa0ddefb1ebdbba4242d81caede834cd0bbd96e4e90b12b2157a5b07c68b625f64046de1f9e1ad4d6056d3536e17207be5f4b24960582052d713b13f22c0",
+      "size": 3185275,
+      "source": "https://modrinth.com/mod/citadel/version/lTAAe4sZ"
+    },
+    {
+      "name": "Cloth Config API",
+      "version": "11.1.136+forge",
+      "filename": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
+      "size": 1181413,
+      "source": "https://modrinth.com/mod/cloth-config/version/t8TXrZvZ"
+    },
+    {
+      "name": "Curios API",
+      "version": "5.14.1+1.20.1",
+      "filename": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87",
+      "size": 398066,
+      "source": "https://modrinth.com/mod/curios/version/IPQlZkz1"
+    },
+    {
+      "name": "Dragonseeker",
+      "version": "1.2.0-1.20.1",
+      "filename": "dragonseeker-1.2.0-1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5097/405/dragonseeker-1.2.0-1.20.1.jar",
+      "sha512": "7bc17260f77ff7fab57605d31802be82dca652c2d78aa1f7dd66423771ffdf77a3a45d0c03cf9c7a7ee531054c0b0b8779873cc7dd4668a182a2f34c564bfac1",
+      "size": 45639,
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragonseeker/files/5097405"
+    },
+    {
+      "name": "Fzzy Config",
+      "version": "0.7.7+1.20.1+forge",
+      "filename": "fzzy_config-0.7.7+1.20.1+forge.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
+      "sha512": "d082b2fcdd2411312f0ce096c35e6167c453f85c979c4273cc92cf246cd0855d825865d79d47933a1bf3f1caaaf17b5a9415d4cb58ace26582434843380e3c1d",
+      "size": 2397175,
+      "source": "https://modrinth.com/mod/fzzy-config/version/53kg5uoF"
+    },
+    {
+      "name": "Ice and Fire",
+      "version": "2.1.13-1.20.1-beta-5",
+      "filename": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+      "url": "https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar",
+      "sha512": "9e3559efccfb898a1f96c16910c07d26bafa730603a335db04df5a1ef511bd2e60b6bbb788c12aa80b12c8ffd8228e7eddf840f90f356577bfd0e439e24eb4f1",
+      "size": 21854126,
+      "source": "https://modrinth.com/mod/ice-and-fire-dragons/version/EzN8KQYF"
+    },
+    {
+      "name": "Integrated Simply Swords",
+      "version": "1.3.1+1.20.1",
+      "filename": "integrated_simply_swords-forge-1.3.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/X6XpwjH5/versions/Lv8EeCDg/integrated_simply_swords-forge-1.3.1%2B1.20.1.jar",
+      "sha512": "4c2e0963e8efc63c859f04e6149403a2fc42fe07823b81b73158a6e12b5f9fb63588c26f6216b8f138cb469821a9071e2f9f5ecddffa4029f70c6937d8416ade",
+      "size": 630803,
+      "source": "https://modrinth.com/mod/integrated-simply-swords/version/Lv8EeCDg"
+    },
+    {
+      "name": "JourneyMap",
+      "version": "1.20.1-6.0.7+forge",
+      "filename": "journeymap-forge-1.20.1-6.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/HWDC99DO/journeymap-forge-1.20.1-6.0.7.jar",
+      "sha512": "93f8514bb8bb24f31b67991940a2075ef9889e3eff2e57a6c1bc98828e3315c37d96c025e73318a2209602bfea71a0b3d2fd415bb347076b0c8a1daafae11746",
+      "size": 4353808,
+      "source": "https://modrinth.com/mod/journeymap/version/HWDC99DO"
+    },
+    {
+      "name": "Kotlin for Forge",
+      "version": "4.12.0",
+      "filename": "kotlinforforge-4.12.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+      "sha512": "767f40030ed4b370a3838fa65ae1b79974f31979342fff7cc834a0d5f39eb28612642519352ff2a1dd5226ce1f745f8b3156ee3625ffde01219137d064c1ee40",
+      "size": 7442998,
+      "source": "https://modrinth.com/mod/kotlin-for-forge/version/Zsh14XeQ"
+    },
+    {
+      "name": "L_Ender's Cataclysm",
+      "version": "3.31",
+      "filename": "L_Enders_Cataclysm-3.31.jar",
+      "url": "https://cdn.modrinth.com/data/46KJle7n/versions/C3H0azzB/L_Enders_Cataclysm-3.31.jar",
+      "sha512": "0dccedd79e3e555f5a38075612d91aec23e1f6ca674e7637ea88c669095b44554385abb75826dfa5a0170585c6b3c3b6d9465bed049c0186d80f75d88f45c5e8",
+      "size": 73916104,
+      "source": "https://modrinth.com/mod/l_enders-cataclysm/version/C3H0azzB"
+    },
+    {
+      "name": "Lionfish-API",
+      "version": "3.0",
+      "filename": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha512": "a7cf6c9bf27a77b45efe434a166f9c99efdb6db14e5d88ce8417c6364aea9d250a9f43627e9e0ac162e106517fccf51cebb5035852c8449fb7fb299a083770c4",
+      "size": 101931,
+      "source": "https://modrinth.com/mod/lionfish-api/version/CPftDBcY"
+    },
+    {
+      "name": "Mutant Monsters",
+      "version": "v8.0.8-1.20.1-Forge",
+      "filename": "MutantMonsters-v8.0.8-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/derP0ten/versions/CUgYzMnF/MutantMonsters-v8.0.8-1.20.1-Forge.jar",
+      "sha512": "ff1b7de6461f37c1a12b96efd2e6d4eed3eb0099debecf9eb63eab85f1ce7d9d87c157d2d5da953b3d99642569ef3bc2b410623145fe7a671343d2aa471f6618",
+      "size": 1335037,
+      "source": "https://modrinth.com/mod/mutant-monsters/version/CUgYzMnF"
+    },
+    {
+      "name": "Origins (Forge)",
+      "version": "1.20.1-1.10.0.9",
+      "filename": "origins-forge-1.20.1-1.10.0.9-all.jar",
+      "url": "https://cdn.modrinth.com/data/jl3m2lR9/versions/vynFXywM/origins-forge-1.20.1-1.10.0.9-all.jar",
+      "sha512": "b103ac2ac509e98eaceedf04891bbe302e82f8b4a7fc3790b3d63bd912306bb09f9925489473211627a7a87d2049672a3e66c5cf6f5b1e34e62049f3a43d0e5d",
+      "size": 2307868,
+      "source": "https://modrinth.com/mod/origins-forge/version/vynFXywM"
+    },
+    {
+      "name": "Placebo",
+      "version": "8.6.3",
+      "filename": "Placebo-1.20.1-8.6.3.jar",
+      "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/6SkuAGoz/Placebo-1.20.1-8.6.3.jar",
+      "sha512": "c23990465e26336f476c3b05a897bcf0c8660ae7338756b325f6bf81d0dee34b609474c62293f394acac818637ab03f92c776d104c8b8e86f3786395f5c4d623",
+      "size": 282474,
+      "source": "https://modrinth.com/mod/placebo/version/6SkuAGoz"
+    },
+    {
+      "name": "Puzzles Lib",
+      "version": "v8.1.33-1.20.1-Forge",
+      "filename": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "sha512": "4e0a6243f70a7f99bb631940bfeca49f31b13ec34f338d994fe129f0445e738ffd925e5c440f4e6bf822f9013bb8c2156de6dfcd62741d85c3ca3e8221d86a19",
+      "size": 1342987,
+      "source": "https://modrinth.com/mod/puzzles-lib/version/mIyVGf3d"
+    },
+    {
+      "name": "Simply Swords",
+      "version": "1.70.2-1.20.1",
+      "filename": "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bK3Ubu9p/versions/Na6e94J1/simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+      "sha512": "f4ba377dc5a3cfa99859933c45746f2c730e5fa2b7a0af40fc3b93a396fa3f671799231af0286e9766e5629a334105f1ede63668a3aa9fff72fbf5f97a76ac61",
+      "size": 15765792,
+      "source": "https://modrinth.com/mod/simply-swords/version/Na6e94J1"
+    },
+    {
+      "name": "Simply Tooltips",
+      "version": "0.1.5-1.20.1",
+      "filename": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha512": "802790a630344de51c74f30e02ac1a2454b6dbc8450e7ea0101495a9196a7d320ad746b4a4628fa43f6e615b6bf15acd9574791c69c4ce5caea756e71dfc5895",
+      "size": 5418741,
+      "source": "https://modrinth.com/mod/simply-tooltips/version/s87jNabF"
+    },
+    {
+      "name": "Terralith",
+      "version": "2.5.4",
+      "filename": "Terralith_1.20.x_v2.5.4.jar",
+      "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/WeYhEb5d/Terralith_1.20.x_v2.5.4.jar",
+      "sha512": "885e171d8b34aae7e142f082d0364285ec5a8e8342f11c60d341f7a94083d5a42c4e30612fe4f9f64d57b484396a3dff3a224e2a2497d4ced8d22f2ad6cd561d",
+      "size": 3156901,
+      "source": "https://modrinth.com/mod/terralith/version/WeYhEb5d"
+    },
+    {
+      "name": "When Dungeons Arise",
+      "version": "2.1.58-1.20.x",
+      "filename": "DungeonsArise-1.20.x-2.1.58-release.jar",
+      "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/6hQpx5Tc/DungeonsArise-1.20.x-2.1.58-release.jar",
+      "sha512": "021bc9558af43492c45c05874fa9f2e87f1e90298b70681f8d3b845716d29b4a5eae57d06c3c4308fd7d7cd45194dea513e78c891d1f546a8f5474acc204153d",
+      "size": 8762342,
+      "source": "https://modrinth.com/mod/when-dungeons-arise/version/6hQpx5Tc"
+    }
+  ]
+}

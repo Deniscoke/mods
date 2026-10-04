@@ -1,0 +1,11 @@
+{
+  "name": "rpg-minecraft-setup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jednorazova instalacia RPG modov pre Minecraft 1.20.1 Forge",
+  "type": "module",
+  "bin": { "rpg-minecraft-setup": "bin/setup.mjs" },
+  "engines": { "node": ">=22" },
+  "files": ["bin", "lib", "manifest.json", "README.md"],
+  "scripts": { "test": "node --test test/*.test.mjs" }
+}
