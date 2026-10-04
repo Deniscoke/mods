@@ -10,13 +10,14 @@ import { checkGameDirectory, detectForge, installMods, validateManifest, already
 const exec = promisify(execFile);
 const manifest = JSON.parse(await fs.readFile(new URL('../manifest.json', import.meta.url), 'utf8'));
 const args = process.argv.slice(2);
-let gameDir, dryRun = false, list = false;
+let gameDir, dryRun = false, list = false, confirm = false;
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--game-dir' && args[i + 1] && !args[i + 1].startsWith('--')) gameDir = args[++i];
   else if (args[i] === '--dry-run') dryRun = true;
   else if (args[i] === '--list') list = true;
+  else if (args[i] === '--confirm') confirm = true;
   else if (args[i] === '--help' || args[i] === '-h') {
-    console.log('RPG Minecraft setup 1.0.0\nPouzitie: rpg-minecraft-setup [--game-dir "priecinok .minecraft"] [--dry-run] [--list]\nNode.js 22+, Forge 1.20.1 vo verzii 47.4.x.\nBez parametrov sa spyta na priecinok. Pred zapisom treba napisat ANO.\n--dry-run: iba kontrola, nic nestahuje ani nemeni.\n--list: zoznam vsetkych presnych verzii modov.');
+    console.log('RPG Minecraft setup 1.0.0\nPouzitie: rpg-minecraft-setup [--game-dir "priecinok .minecraft"] [--dry-run] [--list] [--confirm]\nNode.js 22+, Forge 1.20.1 vo verzii 47.4.x.\nBez parametrov sa spyta na priecinok a potvrdenie.\n--confirm: potvrdi instalaciu v samotnom prikaze (pouzivaj iba so zavretym Minecraftom).\n--dry-run: iba kontrola, nic nestahuje ani nemeni.\n--list: zoznam vsetkych presnych verzii modov.');
     process.exit(0);
   } else { console.error(`Neznamy parameter: ${args[i]}. Pouzi --help.`); process.exit(1); }
 }
@@ -72,11 +73,15 @@ try {
     if (dryRun) console.log('\nKontrola dokoncena. Nic sa nestahovalo ani nemenilo.');
     else {
       await assertMinecraftStopped();
-      if (!process.stdin.isTTY) throw new Error('Instalacia vyzaduje tvoje potvrdenie v interaktivnom terminali.');
-      rl ??= createInterface({ input: process.stdin, output: process.stdout });
-      console.log('\nPred pokracovanim zavri Minecraft aj launcher.');
-      const answer = await rl.question('Suhlasis s touto instalaciou a zalohou? Napis ANO: ');
-      if (answer.trim().toUpperCase() !== 'ANO') console.log('Zrusene. Ziadne subory sa nezmenili.');
+      let accepted = confirm;
+      if (!accepted) {
+        if (!process.stdin.isTTY) throw new Error('Instalacia vyzaduje tvoje potvrdenie. Spusti prikaz s parametrom --confirm.');
+        rl ??= createInterface({ input: process.stdin, output: process.stdout });
+        console.log('\nPred pokracovanim zavri Minecraft aj launcher.');
+        const answer = await rl.question('Suhlasis s touto instalaciou a zalohou? Napis ANO: ');
+        accepted = answer.trim().toUpperCase() === 'ANO';
+      }
+      if (!accepted) console.log('Zrusene. Ziadne subory sa nezmenili.');
       else {
         await assertMinecraftStopped();
         const result = await installMods({ gameDir: root, manifest, log: console.log, beforeCommit: assertMinecraftStopped });

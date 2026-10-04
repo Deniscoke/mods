@@ -9,14 +9,15 @@ Jednorazový inštalátor 24 klientských modov pre našu zostavu Minecraft **1.
 3. Otvor PowerShell a spusti jediný príkaz:
 
 ```powershell
-npx.cmd --yes --package=github:Deniscoke/mods rpg-minecraft-setup
+npx.cmd --yes --package=github:Deniscoke/mods rpg-minecraft-setup --confirm
 ```
 
-4. Inštalátor sa spýta na herný priečinok. Predvolená cesta vo Windows je `%APPDATA%\.minecraft`; ak ju používaš, stlač Enter. Pri inej ceste pozri nastavenia TLauncheru.
-5. Skontroluj zobrazený plán. Napíš **ANO**, ak súhlasíš so zálohou pôvodnej zostavy a jej nahradením našimi modmi. Iná odpoveď inštaláciu zruší.
-6. Po hlásení **HOTOVO** otvor launcher, vyber Forge 1.20.1 a pripoj sa na server.
+4. Príkaz použije predvolenú cestu `%APPDATA%\.minecraft` a po kontrole okamžite spustí inštaláciu. Ak má TLauncher vlastný herný priečinok, doplň `--game-dir "D:\Hry\Minecraft"`.
+5. Po hlásení **HOTOVO** otvor launcher, vyber Forge 1.20.1 a pripoj sa na server.
 
 Príkaz stiahne iba verejný inštalačný kód z tohto GitHubu do npm cache a mody z oficiálnych CDN Modrinthu a CurseForge. Netreba posielať ani ručne ukladať `.tgz`. Nepoužívaj skrátený názov neznámeho npm balíka; príkaz musí obsahovať `github:Deniscoke/mods`.
+
+Parameter `--confirm` je zámerné potvrdenie v samotnom príkaze. Minecraft aj TLauncher musia byť pred spustením zavreté; program odmietne pokračovať, ak hru nájde spustenú.
 
 ## Lokálna alternatíva
 
